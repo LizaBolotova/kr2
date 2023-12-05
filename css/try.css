@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+/* Navigation */
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link {
+    color: rgb(3, 3, 3);
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .navbar-nav .nav-link.active {
+    color: rgb(217, 23, 23);
+}
+
+.row {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: 0.2;
+}
+
+.card:hover {
+    box-shadow: 4px 4px 4px 8px rgba(220, 28, 28, 0.1);
+}
+
+/* Button */
+
+.btn-primary {
+    background-color: rgb(217, 23, 23);
+    border-color: rgb(217, 23, 23);
+    transition: 0.2s;
+}
+
+.btn-primary:hover {
+    background-color:rgb(3, 3, 3)
+}
+
+.navi {
+    text-align: center;
+    margin: 10px;
+}

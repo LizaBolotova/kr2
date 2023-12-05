@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+/* Navigation */
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link {
+    color: rgb(3, 3, 3);
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .navbar-nav .nav-link.active {
+    color: rgb(217, 23, 23);
+}
+
+.carousel-inner {
+    display: block;
+    width: 100%;
+    max-height: 92.5vh;
+    overflow: hidden;
+}
+
+.carousel-item {
+    display: flexbox;
+    width: 100%;
+    max-height: 92.5vh
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    color: rgb(3, 3, 3);
+}
+
+.carousel .slide .carousel-indicators > button {
+    color: rgb(3, 3, 3);
+}
+
+.carousel-indicators {
+    color: rgb(3, 3, 3);
+}
+
+.carousel-caption {
+    color: rgb(217, 23, 23);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+h3 {
+    color: rgb(217, 23, 23);
+}
+
+carousel-indicators [data-bs-target] {
+    color: black;
+}
